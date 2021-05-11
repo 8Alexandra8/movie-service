@@ -1,0 +1,43 @@
+@import "../../scss/variables";
+.movie-info {
+  background: $primary;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 10%);
+  padding: 20px 30px;
+  margin-bottom: 1.5rem;
+
+  &__row {
+    display: flex;
+    margin-bottom: 0.3rem;
+    label {
+      flex: 0 1 40%;
+      color: $gray2;
+      margin-bottom: .2em;
+      font-size: 0.9rem;
+    }
+
+    span {
+      font-size: 1rem;
+    }
+  }
+
+  &__remove-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+    button {
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      font-size: 16px;
+      color: $white;
+      background: $deepOrange;
+      transition: all .1s ease-in-out;
+      border: 1px solid transparent;
+
+      &:hover {
+        background: transparent;
+        border: 1px solid $deepOrange;
+      }
+    }
+  }
+}

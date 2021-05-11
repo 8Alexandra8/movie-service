@@ -1,0 +1,30 @@
+// white
+$white: #ffffff;
+
+// gray
+$gray: #eeeeee;
+$gray1: #5d5d5d;
+$gray2: #58626C;
+$deepGray: #b8b8b8;
+
+// black
+$black: #000000;
+$blueBlack: #0b0b35;
+
+// colored
+$orange: #ffb749;
+$deepOrange: #ffaa26;
+
+// general
+$primary: #222930;
+$secondary: #171D21;
+$third: #00FFA3;
+$thirdGradient: linear-gradient(180deg, #49FFBD 0%, #10C58F 100%);
+
+// button
+$btn_bg: $orange;
+$btn_bg_hover: $deepOrange;
+$btn_bg_disabled: $gray1;
+$btn_bg_secondary: $primary;
+$btn_bg_secondary_active: $deepOrange;
+$btn_bg_third: $secondary;

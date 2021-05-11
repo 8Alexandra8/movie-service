@@ -1,0 +1,12 @@
+@import "../../scss/variables";
+.moviesListContainer {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.moviesList {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,37 @@
+@import "../../scss/variables";
+.movies {
+  min-height: 100vh;
+  padding: 4.5rem 0;
+  display: flex;
+  justify-content: center;
+  &__wrapper {
+    width: 1160px;
+  }
+  &__header {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__title {
+    text-align: center;
+  }
+  &__addMovie {
+    button {
+      width: 100%;
+      height: 100%;
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      font-size: 16px;
+      color: $white;
+      background: $deepOrange;
+      transition: all .1s ease-in-out;
+      border: 1px solid transparent;
+
+      &:hover {
+        background: transparent;
+        border: 1px solid $deepOrange;
+      }
+    }
+  }
+}

@@ -1,0 +1,72 @@
+@import "../../scss/variables";
+.movie-form {
+  background: $primary;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgb(0 0 0 / 10%);
+  padding: 20px 30px;
+  margin-bottom: 1.5rem;
+
+  &__input-container {
+    display: flex;
+    margin-bottom: 0.3rem;
+    label {
+      flex: 0 1 40%;
+      color: $gray2;
+      margin-bottom: .2em;
+      font-size: 0.9rem;
+    }
+    .input {
+      flex: 0 1 60%;
+    }
+  }
+
+  &__input-file-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+    input {
+      width: .1px;
+      height: .1px;
+      opacity: 0;
+      overflow: hidden;
+      position: absolute;
+      z-index: -1;
+    }
+
+    label {
+      border: 3px solid $secondary;
+      padding: 5px 30px;
+      width: 100%;
+      text-align: center;
+      cursor: pointer;
+      transition: all .2s ease;
+      background: transparent;
+
+      &:hover {
+        background: $secondary;
+        border-color: transparent;
+      }
+    }
+  }
+
+  &__submit-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    button {
+      padding: 0.5rem 1rem;
+      font-weight: bold;
+      font-size: 16px;
+      color: $white;
+      background: $deepOrange;
+      transition: all .1s ease-in-out;
+      border: 1px solid transparent;
+
+      &:hover {
+        background: transparent;
+        border: 1px solid $deepOrange;
+      }
+    }
+  }
+}

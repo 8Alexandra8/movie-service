@@ -1,0 +1,72 @@
+import { getRandom } from "../lib/functions";
+
+export const movies = [
+    {
+        id: getRandom(),
+        name: 'Интерстеллар',
+        country: 'США',
+        genre: 'Научная фантастика',
+        director: 'Кристофер Нолан',
+        scenario: '-',
+        producer: '-',
+        operator: '-',
+        composer: '-',
+        budget: '165 000 000',
+        worldFees: '-',
+        ageRating: '12',
+        duration: '169',
+        date: new Date('2014-10-26').getTime(),
+        image: 'interstellar.jpeg'
+    },
+    {
+        id: getRandom(),
+        name: 'Назад в будущее',
+        country: 'США',
+        genre: 'Фантастика',
+        director: 'Роберт Земекис',
+        scenario: '-',
+        producer: '-',
+        operator: '-',
+        composer: '-',
+        budget: '19 000 000',
+        worldFees: '-',
+        ageRating: '12',
+        duration: '116',
+        date: new Date('1985-07-03').getTime(),
+        image: 'back-to-the-future.jpeg'
+    },
+    {
+        id: getRandom(),
+        name: 'Матрица',
+        country: 'США',
+        genre: 'Боевик',
+        director: 'Вачовски',
+        scenario: '-',
+        producer: '-',
+        operator: '-',
+        composer: '-',
+        budget: '63 000 000',
+        worldFees: '-',
+        ageRating: '16',
+        duration: '136',
+        date: new Date('1999-03-31').getTime(),
+        image: 'matrix.jpeg'
+    },
+    {
+        id: getRandom(),
+        name: 'Темный рыцарь',
+        country: 'США',
+        genre: 'Боевик',
+        director: 'Кристофер Нолан',
+        scenario: '-',
+        producer: '-',
+        operator: '-',
+        composer: '-',
+        budget: '185 000 000',
+        worldFees: '-',
+        ageRating: '16',
+        duration: '152',
+        date: new Date('2008-07-18').getTime(),
+        image: 'the-dark-knight.jpeg'
+    }
+]
